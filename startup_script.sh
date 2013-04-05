@@ -4,7 +4,8 @@
 # Then chmod +x startup.sh
 # 3. Create a cron job as root user
 # @reboot  /root/startup.sh >> /var/log/start_script_output.log > 2>&1
-# 4. Restart the server and verify it mounts correctly.
+# 4. Create the Media directory at /media/Media
+# 5. Restart the server and verify it mounts correctly.
 #
 # Source: http://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/ 
 # http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/
