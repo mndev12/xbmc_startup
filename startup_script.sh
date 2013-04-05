@@ -7,6 +7,7 @@
 # 4. Restart the server and verify it mounts correctly.
 #
 # Source: http://kvz.io/blog/2007/07/29/schedule-tasks-on-linux-using-crontab/ 
+# http://www.thegeekstuff.com/2009/06/15-practical-crontab-examples/
 # 
 #! /bin/bash
 echo `sudo mdadm --build /dev/md0 --chunk=64 --level=0 --raid-devices=2 /dev/sdb1 /dev/sdc1`
